@@ -1,10 +1,12 @@
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
 	border: 0;
+	font-family : Garamond; 
 	font: inherit;
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
 	vertical-align: baseline;
+	color:rgb(51, 51, 51);
 }
 
 html, body {
@@ -16,9 +18,21 @@ html, body {
 }
 
 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: inherit;
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 20px;
+	color: rgb(51, 51, 51);
+}
+
+a {
+	color: rgb(51, 51, 51);
+}
+
+a:hover {
+	
+	color: royalblue;
 }
 
 #cv {
@@ -44,12 +58,15 @@ p {
 
 #mainArea {
 	padding: 0 40px;
+	text-align: justify;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+margin-left: 3vw;
+
 }
 
 #headshot img {
@@ -64,16 +81,21 @@ p {
 
 #contactDetails {
 	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: inherit;
+	color: black;
 }
 
 #contactDetails ul {
 	list-style-type: none;
 	font-size: 0.9em;
 	margin-top: 2px;
+	
 }
 
 #contactDetails ul li {
 	margin-bottom: 3px;
+	
 }
 
 #contactDetails ul li a, a[href^=tel] {
@@ -103,11 +125,13 @@ section:last-child {
 .sectionContent {
 	float: right;
 	width: 72.5%;
+
 }
 
 .sectionTitle h1 {
 	font-style: italic;
 	font-size: 1.5em;
+	color: rgb(202, 150, 16);
 }
 
 .sectionContent h2 {
@@ -130,4 +154,11 @@ section:last-child {
 
 .keySkills ul li {
 	margin-bottom: 3px;
+}
+hr {
+	border: 1px solid rgb(202, 150, 16);
+}
+
+.linedivisoria {
+	border: 1px solid rgb(214, 214, 214);
 }
